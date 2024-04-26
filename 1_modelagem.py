@@ -1,5 +1,9 @@
 # Criando a classe Pessoas
 class Pessoas:
+
+    possui_olho = True  # Atributo da classe Pessoas
+    possui_boca = True  # Atributo da classe Pessoas
+    
     def __init__(self, nome, idade, cpf): # Atributos da classe 
         self.nome = nome
         self.idade = idade
